@@ -2,3 +2,14 @@ alias j8="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Co
 alias v="nvim"
 alias server="ssh gmaldona@cs.oswego.edu"
 alias ll="ls -al"
+
+#!/usr/bin/env bash
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+PS1="\[\033[0;36m\]\h's\[\e[m\]"
+PS1+=" "
+PS1+="\[\e[0;95m\]\W\[\e[m\]"
+PS1+=" "
+PS1+="\[\033[0;36m\]>\[\e[m\] "
+export PS1;
