@@ -1,0 +1,4 @@
+alias j8="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/"
+alias v="nvim"
+alias server="ssh gmaldona@cs.oswego.edu"
+alias ll="ls -al"
